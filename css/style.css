@@ -1,0 +1,654 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.profile-img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+div.titleq {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.w {
+    width: 35%;
+    display: inline;
+    position: absolute;
+}
+
+.t {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.lala {
+    height: 560px;
+}
+
+.e {
+    height: 40px;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: antiquewhite;
+    border-color: black;
+    font-size: small;
+    width: 140px;
+    position: relative;
+    left: 18px;
+}
+
+.r {
+    height: 40px;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: small;
+    background: transparent;
+    color: white;
+    border-color: antiquewhite;
+    width: 140px;
+    position: relative;
+    left: 20px;
+}
+
+.titleco {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.secondtt {
+    position: relative;
+}
+
+.jj {
+    font-weight: 600;
+    margin: 50px;
+    font-size: xx-large;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+}
+
+.j {
+    width: 30%;
+}
+
+p {
+    padding: 15%;
+    position: relative;
+    bottom: 90px;
+}
+
+.jjj {
+    position: relative;
+    top: 100px;
+    right: 8px;
+}
+
+.testi {
+    height: 100px;
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.dog {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+}
+
+.simon {
+    display: flex;
+    justify-content: center;
+}
+
+.simu {
+    position: relative;
+    top: 25px;
+    font-size: larger;
+}
+
+.dd {
+    width: 110px;
+}
+
+.COMP {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 130%;
+    margin: 20px;
+}
+
+.cccc {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.he {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+}
+
+.hehe {
+    margin-top: 50px;
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+
+.heh {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+}
+
+.heheh {
+    font-size: 20px;
+    padding-top: 100px;
+}
+
+.chih {
+    width: 30%;
+    height: 200px;
+}
+
+.pr {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 120px;
+}
+
+.chih {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+    border: 2px solid;
+    background-color: orange;
+    color: antiquewhite;
+    border-radius: 45px;
+}
+
+.chc {
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    border-color: black;
+    border: 1px solid;
+}
+
+.bbb {
+    border-radius: 25px;
+    padding: 5px;
+    width: 60%;
+    background-color: peru;
+    color: azure;
+}
+
+.hea {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+}
+
+a {
+    font-size: medium;
+    font-style: italic;
+}
+
+.titlecon {
+    width: 200%;
+}
+
+@media(max-width:970px) and (min-width:660px) {
+    .titleco {
+        display: flex;
+        flex-direction: column;
+    }
+    .titlecon {
+        width: 100%;
+        height: 480px;
+    }
+    div.titleq {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .t {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+    }
+    h1 {
+        font-weight: 900;
+        font-size: 80px;
+    }
+    .w {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 70px;
+    }
+    .secondt {
+        width: 100%;
+    }
+    .secondtt {
+        width: 100%;
+        left: 0px;
+    }
+    .secondtt>div {
+        display: flex;
+        justify-content: center;
+        bottom: 400px;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .jj {
+        font-weight: 600;
+        margin: 50px;
+        font-size: 40px;
+        width: 400px;
+        height: 120px;
+        position: relative;
+        right: 90px;
+    }
+    .p {
+        width: 400px;
+        right: 100px;
+        font-size: larger;
+        font-weight: 500;
+    }
+    .jjj {
+        right: 100px;
+    }
+    .hehe {
+        margin-top: 50px;
+        font-size: 40px;
+        margin-bottom: 0%;
+    }
+}
+
+@media(max-width:659px) and (min-width:400px) {
+    .titleco {
+        display: flex;
+        flex-direction: column;
+    }
+    .titlecon {
+        width: 100%;
+        height: 480px;
+    }
+    div.titleq {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .t {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 40px;
+    }
+    h1 {
+        font-weight: 600;
+        font-size: 50px;
+    }
+    .w {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 70px;
+    }
+    .secondt {
+        width: 100%;
+    }
+    .secondtt {
+        width: 100%;
+        left: 0px;
+    }
+    .secondtt>div {
+        display: flex;
+        justify-content: center;
+        bottom: 400px;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .jj {
+        font-weight: 400;
+        margin: 50px;
+        font-size: 30px;
+        width: 200px;
+        height: 120px;
+        position: relative;
+        right: 90px;
+    }
+    .p {
+        width: 300px;
+        right: 100px;
+        font-size: larger;
+        font-weight: 200;
+    }
+    .jjj {
+        right: 100px;
+    }
+    .hehe {
+        margin-top: 50px;
+        font-size: 40px;
+        margin-bottom: 0%;
+    }
+    .COMP {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        margin: 20px;
+    }
+    .dd {
+        width: 200px;
+    }
+    .cccc {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+    .testi {
+        height: 150px;
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .pr {
+        display: flex;
+        flex-direction: column;
+    }
+    #pricing {
+        height: 1700px;
+    }
+    .chih {
+        width: 50%;
+        height: 200px;
+    }
+    .pr {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 1400px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 120px;
+        align-items: center;
+    }
+    .chih {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        flex-direction: column;
+        border: 2px solid;
+        background-color: orange;
+        color: antiquewhite;
+        border-radius: 45px;
+    }
+    .chc {
+        font-size: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: max-content;
+        border-color: black;
+        border: 1px solid;
+    }
+    .bbb {
+        border-radius: 25px;
+        padding: 5px;
+        width: 60%;
+        background-color: peru;
+        color: azure;
+    }
+    .hehe {
+        font-size: xx-large;
+        font-weight: 400;
+    }
+}
+
+@media (max-width:399px) {
+    .titleco {
+        display: flex;
+        flex-direction: column;
+        height: 1050px;
+    }
+    .titlecon {
+        width: 100%;
+        height: 380px;
+    }
+    div.titleq {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .t {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 40px;
+        position: relative;
+        left: 45px;
+        bottom: 110px;
+    }
+    h1 {
+        font-weight: 600;
+        font-size: 50px;
+    }
+    .w {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 120px;
+        text-align: center;
+    }
+    .secondt {
+        width: 100%;
+    }
+    .secondtt {
+        width: 100%;
+        left: 0px;
+    }
+    .secondtt>div {
+        display: flex;
+        justify-content: center;
+        bottom: 400px;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .jj {
+        font-weight: 400;
+        margin: 50px;
+        font-size: 30px;
+        width: 200px;
+        height: 120px;
+        position: relative;
+        right: 90px;
+    }
+    .p {
+        width: 200px;
+        right: 100px;
+        font-size: larger;
+        font-weight: 200;
+    }
+    .jjj {
+        right: 100px;
+    }
+    .hehe {
+        margin-top: 50px;
+        font-size: 40px;
+        margin-bottom: 0%;
+    }
+    .COMP {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        margin: 20px;
+    }
+    .dd {
+        width: 200px;
+    }
+    .cccc {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
+    .testi {
+        height: 390px;
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .pr {
+        display: flex;
+        flex-direction: column;
+    }
+    #pricing {
+        height: 1900px;
+    }
+    .chih {
+        width: 50%;
+        height: 200px;
+    }
+    .pr {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 1400px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 120px;
+        align-items: center;
+    }
+    .chih {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        flex-direction: column;
+        border: 2px solid;
+        background-color: orange;
+        color: antiquewhite;
+        border-radius: 45px;
+        width: 176px;
+    }
+    .chc {
+        font-size: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: max-content;
+        border-color: black;
+        border: 1px solid;
+    }
+    .bbb {
+        border-radius: 25px;
+        padding: 5px;
+        width: 60%;
+        background-color: peru;
+        color: azure;
+    }
+    .hehe {
+        font-size: xx-large;
+        font-weight: 400;
+    }
+    .lala {
+        width: 100%;
+        height: 400px;
+    }
+    .heh {
+        height: 230px;
+    }
+    .he {
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    .hea {
+        align-items: start;
+    }
+    .t {
+        width: 150px;
+    }
+}
